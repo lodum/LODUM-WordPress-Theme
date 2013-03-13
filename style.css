@@ -1,0 +1,21 @@
+/*
+Theme Name: LODUM
+Theme URI: http://lodum.de
+Description: Bootstrap-based theme for the LODUM website.
+Author: Carsten Kessler
+Author URI: http://carsten.io/
+Version: 0.1
+Tags: lodum, wwu, responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600);
+@import url(bootstrap/css/lodum.css); 
+@import url(bootstrap/css/responsive.css); 
+
+body { 
+     padding-top: 120px; 
+     padding-bottom: 40px; 
+}
