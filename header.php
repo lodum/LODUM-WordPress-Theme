@@ -43,12 +43,15 @@
               <ul class="nav">
 
                 <?php wp_list_pages(array('title_li' => '', 'exclude' => '187,112')); ?>
-
-              </ul>
-            </ul>            
-          </div><!--/.nav-collapse -->
-        </div>
+                
+                <li class="page_item"><a href="http://data.uni-muenster.de/">Data</a></li>
+                <li class="page_item"><a href="http://data.uni-muenster.de/sparql">SPARQL Endpoint</a></li>                
+              </ul>              
+            </ul>  
+            <a href="#" class="pull-right" id="search-button"><i class="icon-search"> </i></a>
+          </div><!--/.nav-collapse -->          
+        </div>        
       </div>
     </div>
 
-    <div class="container">
+    <div class="container main">

@@ -16,7 +16,7 @@
   // Unfix the navbars
   .navbar-fixed-top,
   .navbar-fixed-bottom {
-    position: static;
+    // position: static;
   }
   .navbar-fixed-top {
     margin-bottom: @baseLineHeight;
@@ -26,7 +26,7 @@
   }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
-    padding: 5px;
+    padding: 5px 25px;
   }
   .navbar .container {
     width: auto;
@@ -48,13 +48,17 @@
   // Block-level the nav
   .nav-collapse .nav {
     float: none;
-    margin: 0 0 (@baseLineHeight / 2);
+    margin: 0;
+    background: #fff url('../img/tiles.png') no-repeat;
+    background-position: 0 -40px;
   }
   .nav-collapse .nav > li {
     float: none;
   }
-  .nav-collapse .nav > li > a {
-    margin-bottom: 2px;
+  .nav-collapse .nav > li > a,
+  .nav-collapse .nav > li > a:hover {
+    margin-bottom: 2px;    
+    text-align: left;
   }
   .nav-collapse .nav > .divider-vertical {
     display: none;
@@ -79,12 +83,13 @@
   }
   .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 2px;
+    background-color: @white;
   }
   .nav-collapse .nav > li > a:hover,
   .nav-collapse .nav > li > a:focus,
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
-    background-color: @navbarBackground;
+    background-color: @white;
   }
   .navbar-inverse .nav-collapse .nav > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {

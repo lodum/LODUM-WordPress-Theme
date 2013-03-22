@@ -14,7 +14,7 @@ get_header(); ?>
 
 <div class="row">
   <div class="span4">
-    <img src="./wp-content/uploads/2013/03/lodum-logo.png" alt="lodum-logo" width="300" class="alignnone size-full wp-image-228" />
+    <img src="./wp-content/uploads/2013/03/lodum-logo.png" class="biglogo" alt="lodum-logo" width="300" />
   </div>
 
   <div class="span8">
