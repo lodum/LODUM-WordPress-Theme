@@ -48,7 +48,7 @@
                 <li class="page_item"><a href="http://data.uni-muenster.de/sparql">SPARQL Endpoint</a></li>                
               </ul>              
             </ul>  
-            <a href="#" class="pull-right" id="search-button"><i class="icon-search"> </i></a>
+            <a href="#" class="pull-right" id="search-button" data-html='true' data-content='<form class="form" id="popup-search" action="<?php echo site_url('/'); ?>"><div class="input-append"><input type="text" class="span2" name="s" id="s"><button type="submit" class="btn">Search</button></div></form>' data-placement='left'><i class="icon-search"> </i></a>
           </div><!--/.nav-collapse -->          
         </div>        
       </div>
