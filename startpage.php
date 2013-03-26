@@ -14,7 +14,7 @@ get_header(); ?>
 
 <div class="row">
   <div class="span4">
-    <img src="./wp-content/uploads/2013/03/lodum-logo.png" class="biglogo" alt="lodum-logo" width="300" />
+    <img src="<?php echo get_template_directory_uri() . '/bootstrap/img/lodum-logo.png' ?>" class="biglogo" alt="lodum-logo" width="300" />
   </div>
 
   <div class="span8">
@@ -65,7 +65,7 @@ get_header(); ?>
 
   <div class="span4">
     <h3>Campusplan App</h3>
-    <a href="http://app.uni-muenster.de"><img src="./wp-content/uploads/2013/03/campusplan-iphone.jpg" alt="WWU App" width="100" align="right" style="margin-left: 10px" /></a> The LODUM data also feed the university's Campusplan app with administrative data, navigation instructions, and cafeteria menues. The app is available for <a href="http://itunes.apple.com/de/app/wwu-campus-plan/id474030032?mt=8">iOS</a> and <a href="https://market.android.com/details?id=ifgi.android&amp;feature=search_resu">Android</a>, and as a universal <a href="http://app.uni-muenster.de">webapp</a>. The source code is avilable on <a href="http://github.com/lodum/Campusplan">GitHub</a>.<br />
+    <a href="http://app.uni-muenster.de"><img src="<?php echo get_template_directory_uri() . '/bootstrap/img/campusplan-iphone.jpg' ?>" alt="WWU App" width="100" align="right" style="margin-left: 10px" /></a> The LODUM data also feed the university's Campusplan app with administrative data, navigation instructions, and cafeteria menues. The app is available for <a href="http://itunes.apple.com/de/app/wwu-campus-plan/id474030032?mt=8">iOS</a> and <a href="https://market.android.com/details?id=ifgi.android&amp;feature=search_resu">Android</a>, and as a universal <a href="http://app.uni-muenster.de">webapp</a>. The source code is avilable on <a href="http://github.com/lodum/Campusplan">GitHub</a>.<br />
      <br />
 
     <a href="http://itunes.apple.com/de/app/wwu-campus-plan/id474030032?mt=8" target="_blank" title="Zum iTunes-App Store"><img src="http://www.uni-muenster.de/imperia/md/images/allgemein/icons/app-store_116x40px.jpg" border="0" alt="iTunes-App Store" width="116" height="40"></a> <a href="https://market.android.com/details?id=ifgi.android&amp;feature=search_resu" target="_blank" title="Zum Android-Marketplace"><img src="http://www.uni-muenster.de/imperia/md/images/allgemein/icons/android_35px.jpg" border="0" alt="Android-Marketplace" width="35" height="40" style="margin-left: 10px"></a>
@@ -95,7 +95,7 @@ get_header(); ?>
       fillOpacity: 1,
       weight: 1 })
   .addTo(map)
-  .bindPopup('The <a href="http://data.uni-muenster.de/context/infrastructure/building/351">Schloss</a> is just one of the resources<br />in our steadily growing dataset. <a href="./data">Learn<br />about our offerings</a> or dive straight into<br />the <a href="./sparql">SPARQL endpoint</a>. ')
+  .bindPopup('The <a href="http://data.uni-muenster.de/context/infrastructure/building/351">Schloss</a> is just one of the resources<br />in our steadily growing dataset. <a href="http://data.uni-muenster.de">Learn<br />about our offerings</a> or dive straight into<br />the <a href="./sparql">SPARQL endpoint</a>. ')
   .openPopup();
 
 
