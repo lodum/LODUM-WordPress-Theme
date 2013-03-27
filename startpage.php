@@ -20,7 +20,7 @@ get_header(); ?>
   <div class="span8">
     <p class="lead"><strong>LODUM</strong> is the <a href="http://www.uni-muenster.de">University of Münster</a>'s Open Data initiative. We make any public information about the university available in <a href="http://www.w3.org/DesignIssues/LinkedData.html">machine-readable formats</a> for easy access and reuse. By opening and cross-referencing data from different information systems, LODUM provides a one-stop shop for any data about the University of Münster.</p> 
 
-    <p>LODUM is hosted at the <a href="http://ifgi.uni-muenster.de">Institute for Geoinformatics</a>' Semantic Interoperability Lab (<a href="http://musil.uni-muenster.de">MUSIL</a>) and carried out in collaboration with a wide range of <a href="./partners" title="LODUM Partners">partners</a> across the university. The initiative was started on internal funding from the university's innovation funds and is now continued on <a href="./life-project/">external funding</a>.</p> 
+    <p>LODUM is hosted at the <a href="http://ifgi.uni-muenster.de">Institute for Geoinformatics</a>' Semantic Interoperability Lab (<a href="http://musil.uni-muenster.de">MUSIL</a>) and carried out in collaboration with a wide range of <a href="./partners" title="LODUM Partners">partners</a> across the university. The initiative was started on internal funding from the university's innovation funds and is now continued on <a href="./life/">external funding</a>.</p> 
 
     <p>The <a href="./team/">LODUM team</a> has co-initiated both <a href="http://linkeduniversities.org/">LinkedUniversities.org</a> and <a href="http://linkedscience.org">LinkedScience.org</a>.</p>
   </div> 
