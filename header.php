@@ -19,8 +19,8 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
-    <!-- TODO <link rel="shortcut icon" href="../assets/ico/favicon.ico"> -->
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory');?>/bootstrap/img/favicon.ico">
     
     <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
