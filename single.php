@@ -2,7 +2,7 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="row">
-      <div class="span12">
+      <div class="span8">
         <h1><?php echo(the_title('', '', false)); ?></h1>
       </div>
     </div>
